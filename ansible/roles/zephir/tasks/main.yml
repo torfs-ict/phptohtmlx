@@ -6,6 +6,7 @@
     - libpcre3-dev
     - libjson0
     - libjson0-dev
+    - php5-dev
   become: yes
   become_user: root
 
