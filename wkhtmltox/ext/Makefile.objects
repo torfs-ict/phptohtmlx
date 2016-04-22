@@ -1,0 +1,54 @@
+wkhtmltox.lo: /vagrant/wkhtmltox/ext/wkhtmltox.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/wkhtmltox.c -o wkhtmltox.lo 
+kernel/main.lo: /vagrant/wkhtmltox/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /vagrant/wkhtmltox/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /vagrant/wkhtmltox/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /vagrant/wkhtmltox/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /vagrant/wkhtmltox/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /vagrant/wkhtmltox/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /vagrant/wkhtmltox/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /vagrant/wkhtmltox/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /vagrant/wkhtmltox/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /vagrant/wkhtmltox/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /vagrant/wkhtmltox/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/extended/fcall.lo: /vagrant/wkhtmltox/ext/kernel/extended/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/extended/fcall.c -o kernel/extended/fcall.lo 
+kernel/require.lo: /vagrant/wkhtmltox/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /vagrant/wkhtmltox/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /vagrant/wkhtmltox/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/math.lo: /vagrant/wkhtmltox/ext/kernel/math.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/math.c -o kernel/math.lo 
+kernel/concat.lo: /vagrant/wkhtmltox/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /vagrant/wkhtmltox/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /vagrant/wkhtmltox/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /vagrant/wkhtmltox/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /vagrant/wkhtmltox/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /vagrant/wkhtmltox/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/kernel/exit.c -o kernel/exit.lo 
+wkhtmltox/pdf.lo: /vagrant/wkhtmltox/ext/wkhtmltox/pdf.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/wkhtmltox/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/wkhtmltox/ext/wkhtmltox/pdf.zep.c -o wkhtmltox/pdf.lo 
+$(phplibdir)/wkhtmltox.la: ./wkhtmltox.la
+	$(LIBTOOL) --mode=install cp ./wkhtmltox.la $(phplibdir)
+
+./wkhtmltox.la: $(shared_objects_wkhtmltox) $(WKHTMLTOX_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_wkhtmltox) $(WKHTMLTOX_SHARED_LIBADD)
+

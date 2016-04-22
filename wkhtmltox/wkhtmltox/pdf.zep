@@ -1,0 +1,4 @@
+namespace WkHtmlToX;
+
+class Pdf {
+}
